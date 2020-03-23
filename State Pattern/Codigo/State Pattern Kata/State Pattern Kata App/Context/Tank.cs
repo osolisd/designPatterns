@@ -60,7 +60,6 @@ namespace State_Pattern_Kata_App.Context
             this.State.Move();
             this.Damage = this.State.Damage;
             this.CanMove = this.State.CanMove;
-            this.SetState(this.siegeState);
         }
 
         public void NoMove()
@@ -68,7 +67,6 @@ namespace State_Pattern_Kata_App.Context
             this.State.NoMove();
             this.Damage = this.State.Damage;
             this.CanMove = this.State.CanMove;
-            this.SetState(this.tankState);
         }
     }
 }

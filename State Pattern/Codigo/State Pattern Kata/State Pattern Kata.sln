@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State Pattern Kata App", "State Pattern Kata App\State Pattern Kata App.csproj", "{1640BC89-C426-4485-A236-2532D53D7C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State Pattern Kata App", "State Pattern Kata App\State Pattern Kata App.csproj", "{1640BC89-C426-4485-A236-2532D53D7C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternKataAppTest", "StatePatternKataAppTest\StatePatternKataAppTest.csproj", "{EB5F8E51-3ABF-472C-90C9-04E0740620CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1640BC89-C426-4485-A236-2532D53D7C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1640BC89-C426-4485-A236-2532D53D7C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1640BC89-C426-4485-A236-2532D53D7C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5F8E51-3ABF-472C-90C9-04E0740620CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5F8E51-3ABF-472C-90C9-04E0740620CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5F8E51-3ABF-472C-90C9-04E0740620CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5F8E51-3ABF-472C-90C9-04E0740620CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

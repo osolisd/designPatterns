@@ -31,7 +31,7 @@ namespace State_Pattern_Kata_App.States
 
         public void NoMove()
         {
-            this.Damage = 10;
+            this.Damage = 20;
             this.CanMove = false;
         }
     }

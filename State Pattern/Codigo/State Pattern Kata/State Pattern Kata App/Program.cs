@@ -13,12 +13,13 @@ namespace State_Pattern_Kata_App
             Console.WriteLine();
 
             Tank tank = new Tank();
-
+            
             Console.WriteLine("Damages are: " + tank.Damage);
             string canMove = tank.CanMove ? "SI" : "NO";
             Console.WriteLine("Can tank Move?: " + canMove);
             Console.WriteLine();
 
+            tank.SetState(new SiegeState(tank));
             tank.NoMove();
 
             Console.WriteLine("Damages are: " + tank.Damage);
@@ -26,6 +27,7 @@ namespace State_Pattern_Kata_App
             Console.WriteLine("Can tank Move?: " + canMove);
             Console.WriteLine();
 
+            tank.SetState(new TankState(tank));
             tank.Move();
 
             Console.WriteLine("Damages are: " + tank.Damage);
