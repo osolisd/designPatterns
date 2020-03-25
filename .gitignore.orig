@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/State Pattern/Codigo/State Pattern Kata/State Pattern Kata App/obj
+/State Pattern/Codigo/State Pattern Kata/.vs/State Pattern Kata
+/State Pattern/Codigo/State Pattern Kata/State Pattern Kata App/bin/Debug/netcoreapp3.0
+/State Pattern/Codigo/State Pattern Kata/StatePatternKataAppTest/bin/Debug/netcoreapp3.0
+/State Pattern/Codigo/State Pattern Kata/StatePatternKataAppTest/obj
+<<<<<<< HEAD
+/Command Pattern/Codigo/Command Pattern Kata/.vs/Command Pattern Kata
+/Command Pattern/Codigo/Command Pattern Kata/Command Pattern Kata App/bin/Debug/netcoreapp3.0
+/Command Pattern/Codigo/Command Pattern Kata/Command Pattern Kata App/obj
+/Command Pattern/Codigo/Command Pattern Kata/Command Pattern Kata App.Tests/bin/Debug/netcoreapp3.0
+/Command Pattern/Codigo/Command Pattern Kata/Command Pattern Kata App.Tests/obj
+=======
+node_modules/
+dist/
+# Ignore Mac DS_Store files
+.DS_Store
+>>>>>>> 6eb95c73236e68f4cd6fac84356f685b12280de9
